@@ -12,12 +12,10 @@ class App extends Component {
 
   //Your code here:
 
-
-
-
-
-
-
+  componentDidMount(){
+    console.log("mounted");
+    this.handleAddTimer()
+  }
 
 
   // No need to modify anything in render or the class methods below
