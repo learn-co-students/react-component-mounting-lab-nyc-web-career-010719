@@ -8,7 +8,13 @@ class Timer extends Component {
   }
 
   // add your code here
+  componentDidMount () {
 
+  }
+
+  componentWillUnmount () {
+
+  }
 
 
 
