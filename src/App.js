@@ -12,7 +12,13 @@ class App extends Component {
 
   //Your code here:
 
+  componentDidMount() {
+    this.handleAddTimer()
+  }
 
+  componentWillUnMount(){
+    clearInterval(() => this.clockTick())
+  }
 
 
 
