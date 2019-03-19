@@ -10,7 +10,12 @@ class App extends Component {
   }
 
 
+  // let this.interval = null
   //Your code here:
+  componentDidMount(){
+    this.handleAddTimer()
+  }
+
 
 
 
